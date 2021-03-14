@@ -4,6 +4,6 @@
 
 #include "kmint/ufo/states/tank/tankBaseState.h"
 
-void tankBaseState::moveTank(tank &tank) {
+void tankBaseState::tick(tank &tank) {
 
 }
