@@ -30,21 +30,23 @@ namespace kmint::ufo {
 
 	math::vector2d human::Seperate() {
 
-    	const std::vector<actor> actors;
+//    	const std::vector<actor> actors;
+//
+//		for (auto &actor : actors)
+//		{
+//			if (attack->m_num == input)
+//			{
+//				attack->makeDamage();
+//			}
+//		}
+//
+//		math::vector2d difference {this->location(). }
 
-		for (auto &actor : actors)
-		{
-			if (attack->m_num == input)
-			{
-				attack->makeDamage();
-			}
-		}
-
-		math::vector2d difference {this->location(). }
+		return math::vector2d();
     }
 
 	math::vector2d human::cehere() {
-
+		return math::vector2d();
     }
 
 	math::vector2d human::align() {
@@ -53,7 +55,7 @@ namespace kmint::ufo {
 //
 //
 //		}
-
+		return math::vector2d();
     }
 
     // Calculating distance
