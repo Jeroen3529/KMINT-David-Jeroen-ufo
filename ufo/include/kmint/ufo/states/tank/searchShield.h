@@ -7,10 +7,12 @@
 
 #include "tankBaseState.h"
 
-class searchShield : public tankBaseState {
-public:
-    void tick(tank& tank) override;
-};
+namespace kmint::ufo{
+    class searchShield : public tankBaseState {
+    public:
+        void tick(tank& tank) override;
+    };
+}
 
 
 

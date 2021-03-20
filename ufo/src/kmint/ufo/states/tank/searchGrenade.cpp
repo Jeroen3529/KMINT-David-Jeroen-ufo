@@ -5,6 +5,8 @@
 #include "kmint/ufo/states/tank/searchGrenade.h"
 #include <iostream>
 
-void searchGrenade::tick(tank& tank) {
+namespace kmint::ufo {
+    void searchGrenade::tick(tank &tank) {
 
+    }
 }

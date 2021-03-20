@@ -1,9 +1,10 @@
 #include "kmint/ufo/tank.hpp"
-#include "kmint/graphics.hpp"
 #include "kmint/ufo/node_algorithm.hpp"
+#include "kmint/ufo/resources.hpp"
 #include "kmint/random.hpp"
 #include <iostream>
-#include <kmint/ufo/states/tank/roamTankState.h>
+
+#include "kmint/ufo/states/tank/roamTankState.h"
 
 namespace kmint::ufo {
 

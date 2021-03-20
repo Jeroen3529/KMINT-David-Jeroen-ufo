@@ -5,12 +5,19 @@
 #ifndef KMINT_DAVID_JEROEN_UFO_ROAMTANKSTATE_H
 #define KMINT_DAVID_JEROEN_UFO_ROAMTANKSTATE_H
 
-#include "tankBaseState.h"
+#include <map>
 
-class roamTankState : public tankBaseState {
-public:
-    void tick(tank& tank) override;
-};
+#include "tankBaseState.h"
+//#include "../../tank.hpp"
+
+namespace kmint::ufo {
+    class tank;
+
+    class roamTankState : public tankBaseState {
+    public:
+        void tick(tank &tank) override;
+    };
+}
 
 
 #endif //KMINT_DAVID_JEROEN_UFO_ROAMTANKSTATE_H

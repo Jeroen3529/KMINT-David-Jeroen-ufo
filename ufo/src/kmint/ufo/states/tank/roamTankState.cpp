@@ -3,10 +3,12 @@
 //
 
 #include "kmint/ufo/states/tank/roamTankState.h"
-#include <iostream>
 
-void roamTankState::tick(tank& tank) {
-    std::cout << "Roam hit";
-    int next_index = random_int(0, tank.getCurrentNode().num_edges());
-    tank.setCurrentNode(next_index);
+//#include "kmint/random.hpp"
+
+namespace kmint::ufo {
+    void roamTankState::tick(tank &tank) {
+        int next_index = random_int(0, tank.getCurrentNode().num_edges());
+        tank.setCurrentNode(next_index);
+    }
 }

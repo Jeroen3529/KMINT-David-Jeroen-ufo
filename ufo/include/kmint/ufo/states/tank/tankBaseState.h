@@ -5,12 +5,17 @@
 #ifndef KMINT_DAVID_JEROEN_UFO_TANKBASESTATE_H
 #define KMINT_DAVID_JEROEN_UFO_TANKBASESTATE_H
 
-class tank;
+#include <map>
 
-class tankBaseState {
-public:
-    virtual void tick(tank& tank);
-};
+//#include "kmint/play.hpp"
 
+namespace kmint::ufo{
+    class tank;
+
+    class tankBaseState {
+    public:
+        virtual void tick(tank& tank);
+    };
+}
 
 #endif //KMINT_DAVID_JEROEN_UFO_TANKBASESTATE_H

@@ -4,6 +4,8 @@
 
 #include "kmint/ufo/states/tank/tankBaseState.h"
 
-void tankBaseState::tick(tank &tank) {
+namespace kmint::ufo {
+    void tankBaseState::tick(tank &tank) {
 
+    }
 }

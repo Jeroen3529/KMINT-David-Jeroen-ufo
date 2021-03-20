@@ -5,6 +5,8 @@
 #include "kmint/ufo/states/tank/searchAndre.h"
 #include <iostream>
 
-void searchAndre::tick(tank& tank) {
+namespace kmint::ufo {
+    void searchAndre::tick(tank &tank) {
 
+    }
 }

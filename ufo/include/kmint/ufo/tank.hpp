@@ -1,11 +1,11 @@
 #ifndef KMINT_UFO_TANK_HPP
 #define KMINT_UFO_TANK_HPP
 
-#include <kmint/ufo/states/tank/tankBaseState.h>
-#include <kmint/ufo/states/tank/tankStateFactory.h>
 #include "kmint/map/map.hpp"
 #include "kmint/play.hpp"
 #include "kmint/primitives.hpp"
+#include "kmint/graph/graph.hpp"
+#include "kmint/ufo/states/tank/tankStateFactory.h"
 
 namespace kmint {
 namespace ufo {

@@ -5,6 +5,8 @@
 #include "kmint/ufo/states/tank/flee.h"
 #include <iostream>
 
-void flee::tick(tank& tank) {
+namespace kmint::ufo {
+    void flee::tick(tank &tank) {
 
+    }
 }

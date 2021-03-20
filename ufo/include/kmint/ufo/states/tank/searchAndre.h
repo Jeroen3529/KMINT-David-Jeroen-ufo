@@ -7,10 +7,12 @@
 
 #include <kmint/ufo/states/tank/tankBaseState.h>
 
-class searchAndre : public tankBaseState {
-public:
-    void tick(tank& tank) override;
-};
+namespace kmint::ufo {
+    class searchAndre : public tankBaseState {
+    public:
+        void tick(tank &tank) override;
+    };
+}
 
 
 #endif //KMINT_DAVID_JEROEN_UFO_SEARCHANDRE_H
